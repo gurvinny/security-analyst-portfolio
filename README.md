@@ -19,5 +19,8 @@ This repository documents my hands-on cybersecurity training focused on **SOC Ti
 - [Labs](labs/)
 - [Resume Projects](resume-projects.md)
 
+## Training Platforms
+- TryHackMe — https://tryhackme.com/p/gurvin  
+
 ## Note on Ethics
 All activities documented here are performed in **legal training labs**. Any secrets (flags/passwords) are **redacted**.
