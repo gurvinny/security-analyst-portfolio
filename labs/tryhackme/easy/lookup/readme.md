@@ -10,7 +10,7 @@
 
 Lookup is a hands-on cybersecurity lab focused on **web enumeration, authentication analysis, command injection exploitation, and Linux privilege escalation**.
 
-This challenge simulates a realistic attack workflow and demonstrates the importance of **systematic reconnaissance, exploitation chaining, and post-exploitation enumeration**.
+This challenge simulates a realistic attack workflow and demonstrates the importance of **systematic reconnaissance, exploitation chaining, and post-exploitation enumeration**, while also highlighting **defensive detection and mitigation strategies**.
 
 ---
 
@@ -39,21 +39,21 @@ This challenge simulates a realistic attack workflow and demonstrates the import
 ## 🏁 Results
 
 | Privilege | Status |
-|------------|---------|
-| User       | ✅ |
-| Root       | ✅ |
+|-------------|----------|
+| User | ✅ |
+| Root | ✅ |
 
 ---
 
 ## 🛡️ Defensive Insights
 
-- Importance of secure authentication logic  
+- Secure authentication logic implementation  
 - Proper input validation  
-- Monitoring subprocess execution  
-- SUID binary auditing  
+- Subprocess execution monitoring  
+- SUID binary auditing and restriction  
 
 ---
 
 ## 📂 Documentation
 
-Full technical walkthrough and detection notes are provided in: [Report](report.md)
+Full technical walkthrough, exploitation details, and SOC detection notes are provided in: [Report](report.md)
