@@ -56,4 +56,4 @@ This challenge simulates a realistic attack workflow and demonstrates the import
 
 ## 📂 Documentation
 
-Full technical walkthrough and detection notes are provided in:
+Full technical walkthrough and detection notes are provided in: [Report](report.md)
