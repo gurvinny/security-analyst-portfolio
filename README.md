@@ -57,7 +57,7 @@ Repository of custom detection rules and SIEM queries.
 ---
 
 ## 📜 Certifications & Training
-- **TryHackMe:** Top 1% Rank | SOC Level 1 Path Completed
+- **TryHackMe:** Top 7% Rank | SOC Level 1 Path (In Progress)
 - **Google Cybersecurity Certificate** (In Progress)
 
 ---
