@@ -12,7 +12,7 @@ Aspiring **SOC Analyst** with a strong foundation in **Incident Response**, **Ne
 | **Category** | **Tools & Technologies** |
 | :--- | :--- |
 | **SIEM & Log Analysis** | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white) ![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elasticsearch&logoColor=white) |
-| **Network Analysis** | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-blue?style=for-the-badge&logo=nmap&logoColor=white) |
+| **Network Analysis** | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-blue?style=for-the-badge&logo=nmap&logoColor=white) ![pfSense](https://img.shields.io/badge/pfSense-2C3E50?style=for-the-badge&logo=pfsense&logoColor=white) |
 | **Vulnerability Mgmt** | ![Nessus](https://img.shields.io/badge/Nessus-007ACC?style=for-the-badge&logo=tenable&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white) |
 | **Scripting & Automation** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) |
 | **Operating Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) |
