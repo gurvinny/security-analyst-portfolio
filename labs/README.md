@@ -30,7 +30,7 @@ To maintain a consistent and professional standard, all lab writeups in this rep
 
 ### [TryHackMe](tryhackme/)
 Walkthroughs focusing on log analysis, endpoint forensics, and network traffic analysis.
-*   **[Lookup](tryhackme/easy/lookup/)** (Easy) - Investigating suspicious activities and understanding fundamental forensic artifacts.
+*   **[Lookup](tryhackme/easy/lookup/report.md)** (Easy) - Investigating suspicious activities and understanding fundamental forensic artifacts.
 
 ### [HackTheBox](hackthebox/)
 *(Coming Soon)* - Advanced defensive scenarios and Sherlocks focused on incident response and threat hunting.
