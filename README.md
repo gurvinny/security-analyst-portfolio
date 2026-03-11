@@ -43,6 +43,7 @@ Aspiring **SOC Analyst** bridging the gap between offensive techniques and defen
 | Project Name | Objective | Primary Tools | Outcome | Link |
 | :--- | :--- | :--- | :--- | :--- |
 | **Enterprise Home Network Lab** | Establish a secure, segmented, and monitored environment for malware analysis and traffic inspection. | pfSense, Snort/Suricata, Splunk, VLANs | Successfully implemented IDS/IPS rules to detect malicious traffic patterns and aggregated logs for proactive hunting. | [View Repo](https://github.com/gurvinny/home-network-lab) |
+| **Automated Phish Extractor** | Automate the extraction of critical IOCs from raw .eml phishing reports and enrich them with threat intelligence to combat alert fatigue. | Python, VirusTotal API, AbuseIPDB API | Automated the manual parsing of headers, file hashes, and link defanging, generating Markdown/JSON reports to accelerate incident triage and containment. | [View Repo](https://github.com/gurvinny/Automated-Phish-Extractor) |
 | **Flipper Zero Hardware Security** | Research physical access controls, RF protocols, and wireless communication vulnerabilities. | Flipper Zero, Sub-GHz, RFID/NFC | Demonstrated practical attacks on insecure systems and documented actionable physical security mitigation strategies. | [View Repo](https://github.com/gurvinny/grv-flipper-lab) |
 
 ---
