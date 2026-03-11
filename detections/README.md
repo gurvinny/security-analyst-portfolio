@@ -3,32 +3,33 @@
   <h1>🔍 Detection Engineering & Threat Hunting</h1>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Status-Active-1F2937?style=for-the-badge&logoColor=60A5FA&borderColor=60A5FA" alt="Status" />
-    <img src="https://img.shields.io/badge/Focus-Detection_Engineering-1F2937?style=for-the-badge&logoColor=60A5FA&borderColor=60A5FA" alt="Focus" />
+    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Focus-Detection_Engineering-1F2937?style=for-the-badge&logo=shield&logoColor=60A5FA" alt="Focus" />
   </p>
 </div>
 
 ---
 
-## 🎯 Overview
-This directory serves as a repository for custom detection rules, SIEM queries, and threat hunting logic developed to identify malicious activity and indicators of compromise (IOCs) within an enterprise environment. The goal is to build robust, high-fidelity alerts mapped to the MITRE ATT&CK framework.
+## 🎯 The Mission
+This directory serves as a centralized intelligence repository for engineering custom detection signatures, high-fidelity SIEM search logic, and proactive threat hunting methodologies to identify elusive malicious behavior traversing the enterprise environment. The core operational objective is to deploy resilient, low-noise alerts directly mapped to the MITRE ATT&CK framework.
 
 ---
 
 ## 🏗️ Detection Methodology
-The detections in this repository are designed to be actionable and reduce alert fatigue. When developing a new rule, the focus is on:
-- **Intent vs. Action:** Differentiating normal administrative behavior from malicious intent.
-- **Tuning & False Positives:** Defining exclusions to limit noise.
-- **Vendor Agnosticism:** Utilizing universal formats (like Sigma) whenever possible to ensure rules can be deployed across various SIEM platforms.
+To guarantee maximum visibility and minimize analyst fatigue, all detection artifacts authored within this repository rigorously adhere to the following principles:
+
+-   **Intent vs. Action (Behavioral Focus):** Engineering logic that aggressively targets the *intent* behind the action (e.g., process injection vs. legitimate application launches) rather than merely relying on ephemeral static indicators (IPs/Hashes).
+-   **Aggressive Tuning & False Positive Mitigation:** Structurally defining known-good baselines and environmental exclusions natively within the rule logic to severely restrict alert fatigue.
+-   **Vendor Agnosticism:** Utilizing universally adopted formats, primarily **Sigma**, to ensure detection logic can be rapidly deployed and translated across disparate SIEM platforms (Splunk, Elastic, Sentinel).
 
 ---
 
-## 📂 Resources & Rules
+## 📂 Active Intelligence & Telemetry Logic
 
-### [📝 Sigma Rule Template](sigma-rule-template.yml)
-A standardized template for creating new Sigma rules. This template ensures all necessary metadata (Title, Status, Description, Author, Date), log sources, detection logic, and false positive definitions are consistently documented for every new rule.
+### [📝 Sigma Rule Template Definition](sigma-rule-template.yml)
+*   **Analyst Focus:** A strictly standardized `.yml` framework governing the creation of all new Sigma rules. This template mandates comprehensive metadata inclusion (Title, Status, Operational Description, Author, Date), precise log source targeting (Windows Sysmon, Network traffic), deterministic detection logic mapping, and the mandatory definition of anticipated false positives to ensure consistency across all telemetry.
 
 ---
 <div align="center">
-  <i>"Visibility is the foundation of defense. You can't protect what you can't see."</i>
+  <i>"Visibility is the foundation of defense. You cannot protect an environment against a threat you lack the telemetry to detect."</i>
 </div>

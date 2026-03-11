@@ -3,40 +3,42 @@
   <h1>📘 SOC Incident Response Playbooks</h1>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Status-Active-1F2937?style=for-the-badge&logoColor=60A5FA&borderColor=60A5FA" alt="Status" />
-    <img src="https://img.shields.io/badge/Focus-Incident_Response-1F2937?style=for-the-badge&logoColor=60A5FA&borderColor=60A5FA" alt="Focus" />
+    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Focus-Incident_Response-1F2937?style=for-the-badge&logo=shield&logoColor=60A5FA" alt="Focus" />
   </p>
 </div>
 
 ---
 
-## 🎯 Overview
-This directory contains incident response playbooks designed for **SOC Tier 1 / Entry-Level Security Analysts**. These playbooks outline structured investigation and response workflows for common security alerts, providing actionable guidance for triage, containment, and recovery.
+## 🎯 The Mission
+This directory acts as the central repository for high-fidelity Incident Response Playbooks, meticulously designed for **SOC Tier 1 / Entry-Level Security Analysts**. These standard operating procedures (SOPs) outline structured investigation, containment, and eradication workflows for common security alerts, guaranteeing actionable guidance and operational readiness.
 
 ---
 
 ## 🏗️ Playbook Methodology
-To ensure consistent, professional, and effective incident handling, **all playbooks in this repository strictly follow a 6-phase incident response structure** based on NIST guidelines:
+To maintain an aggressive, professional, and methodical incident response posture, **all playbooks in this repository adhere strictly to a unified, modern SOC structure:**
 
-1. **Preparation:** Prerequisites for handling the alert (log sources, required access, baseline configurations).
-2. **Detection & Alerting:** Identification of the trigger, initial alert details, and preliminary SIEM queries.
-3. **Investigation:** Step-by-step triage processes, log analysis, timeline reconstruction, and determining the scope of the incident.
-4. **Containment:** Immediate actions required to isolate compromised assets and prevent further lateral movement or data exfiltration.
-5. **Eradication & Recovery:** Procedures for removing malicious artifacts, restoring systems to a known good state, and verifying operational integrity.
-6. **Post-Incident Activity:** Documentation of lessons learned, updating detection rules, improving defenses, and refining the playbook.
+1. **Hero Section:** Dynamic status badges (Severity, Status, Primary Tool) for immediate contextual awareness.
+2. **The Mission:** A concise, one-sentence objective defining the playbook's ultimate goal.
+3. **Attack Topology:** A visual Mermaid.js flowchart mapping out the expected threat actor workflow or the required defensive response chain.
+4. **Executive Summary:** A high-level table summarizing critical playbook elements.
+5. **Incident Timeline:** A structured sequence of events for chronological reconstruction.
+6. **The Investigation:** Step-by-step triage processes, utilizing `<details>` and `<summary>` tags for deep-dive log analysis, artifact extraction, and command execution review.
+7. **MITRE ATT&CK Mapping:** A clean Markdown table correlating playbook actions against specific adversary tactics and techniques.
+8. **Closing (Remediation & Lessons Learned):** Procedures for containment, eradication, and post-incident documentation to fortify future defenses.
 
 ---
 
-## 📂 Current Playbooks
+## 📂 Active Playbook Deployments
 
-### [🚨 Brute Force Response](brute-force-response.md)
-Detection and response workflows for anomalous authentication activities, including password spraying, credential stuffing, and repeated failed login attempts against critical infrastructure.
+### [🚨 Brute Force & Credential Stuffing](brute-force-response.md)
+*   **Analyst Focus:** Detection and aggressive response workflows for anomalous authentication activities, including password spraying, credential stuffing, and repeated failed login attempts against critical identity infrastructure.
 
-### [🎣 Phishing Analysis](phishing-response.md)
-Comprehensive steps to analyze suspicious emails, including header inspection, attachment detonation (sandboxing), URL reputation checks, and determining user interaction.
+### [🎣 Phishing Analysis & Remediation](phishing-response.md)
+*   **Analyst Focus:** Comprehensive, multi-stage analysis of suspicious emails, encompassing header inspection, URL reputation checks, attachment detonation (sandboxing), and assessing user interaction telemetry.
 
 ### [🛑 Ransomware Containment](ransomware-containment-playbook.md)
-Immediate triage and isolation procedures for suspected ransomware infections, focusing on rapid containment to limit encryption spread and preserve forensic evidence.
+*   **Analyst Focus:** Immediate triage and critical isolation procedures for suspected ransomware detonations, focusing on rapid containment to severely limit encryption spread and preserve volatile forensic evidence.
 
 ---
 <div align="center">
