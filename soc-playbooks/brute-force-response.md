@@ -14,6 +14,7 @@ Rapidly detect, investigate, and contain anomalous authentication attempts targe
 ## 🗺️ Attack Topology
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1F2937', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#60A5FA', 'lineColor': '#60A5FA', 'secondaryColor': '#60A5FA', 'tertiaryColor': '#1F2937'}}}%%
 graph TD
     A[Attacker IP] -->|Multiple Failed Logins| B(Authentication Gateway)
     B -->|Logs Sent| C{SIEM / Splunk}

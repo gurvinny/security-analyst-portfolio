@@ -15,6 +15,7 @@ Simulate a realistic attack workflow demonstrating network & web enumeration, au
 ## 🗺️ Attack Topology
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1F2937', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#60A5FA', 'lineColor': '#60A5FA', 'secondaryColor': '#60A5FA', 'tertiaryColor': '#1F2937'}}}%%
 graph TD
     A[Attacker IP] -->|Nmap Scan| B(Ports 22 & 80)
     B -->|Vhost Fuzzing via ffuf| C[files.lookup.thm]

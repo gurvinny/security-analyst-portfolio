@@ -14,6 +14,7 @@
 ## 🗺️ Attack Topology
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1F2937', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#60A5FA', 'lineColor': '#60A5FA', 'secondaryColor': '#60A5FA', 'tertiaryColor': '#1F2937'}}}%%
 graph TD
     A[Attacker] -->|Action 1| B(System 1)
     B -->|Action 2| C[System 2]
