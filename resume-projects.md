@@ -37,6 +37,14 @@ The following technical deployments and experiences are documented to demonstrat
 *   **Centralized Logging:** Integrated **Splunk Universal Forwarders** across core infrastructure (Windows/Linux endpoints) to aggregate high-fidelity security events (authentication failures, suspicious process executions) into a centralized SIEM for dashboarding and proactive threat hunting.
 *   **Objective:** Secured a persistent, monitored sandbox optimized for safe malware detonation, deep-packet inspection, and the empirical testing of new detection rules.
 
+## 🎣 Automated Phish Extractor ([GitHub](https://github.com/gurvinny/Automated-Phish-Extractor))
+*A Python-based automation tool engineered to streamline SOC workflows by automating the ingestion, parsing, and enrichment of malicious .eml files to combat alert fatigue.*
+
+*   **IOC Automation:** Engineered a **Python** automation script to parse email headers (SPF, DKIM, DMARC), extract **Indicators of Compromise (IOCs)**, and calculate file hashes.
+*   **Threat Enrichment:** Integrated external **Threat Intelligence** APIs (**VirusTotal v3**, **AbuseIPDB**) to automate malicious reputation checks and derive risk severity scores.
+*   **Operational Security:** Developed automated defanging logic for extracted URLs, IPs, and domains to ensure safe sharing across teams and SOAR platforms without triggering enterprise perimeter alerts.
+*   **Detection Engineering:** Authored actionable detection artifacts, including custom **YARA** and **Sigma rules**, derived from parsed telemetry to enable proactive **Threat Hunting** within **SIEM** environments.
+
 ## 🐬 Flipper Zero Hardware Security Lab
 *Exploration and documentation of physical security vulnerabilities, access controls, and radio frequency (RF) protocol manipulation.*
 
