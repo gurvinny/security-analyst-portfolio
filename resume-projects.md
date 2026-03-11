@@ -29,7 +29,7 @@ The following technical deployments and experiences are documented to demonstrat
 *   **Defensive Focus:** Transformed offensive concepts into actionable defensive insights by rigorously analyzing SOC-relevant telemetry: Windows Event logs (Sysmon), endpoint process creation, and network protocol traffic (PCAP/Wireshark).
 *   **Deliverables:** Synthesized professional incident write-ups designed for audit readiness, underscoring the *artifacts* left behind during post-exploitation rather than just the initial access exploit.
 
-## 🏠 Enterprise Home Network Telemetry Lab
+## 🏠 Enterprise Home Network Telemetry Lab ([GitHub](https://github.com/gurvinny/home-network-lab))
 *A fully segmented, robustly monitored environment architected to simulate an enterprise network infrastructure for safe threat analysis.*
 
 *   **Infrastructure Design:** Architected strict network segmentation utilizing **pfSense** and VLANs to isolate Lab, Guest, and IoT traffic, effectively minimizing the internal attack surface area.
@@ -45,7 +45,7 @@ The following technical deployments and experiences are documented to demonstrat
 *   **Operational Security:** Developed automated defanging logic for extracted URLs, IPs, and domains to ensure safe sharing across teams and SOAR platforms without triggering enterprise perimeter alerts.
 *   **Detection Engineering:** Authored actionable detection artifacts, including custom **YARA** and **Sigma rules**, derived from parsed telemetry to enable proactive **Threat Hunting** within **SIEM** environments.
 
-## 🐬 Flipper Zero Hardware Security Lab
+## 🐬 Flipper Zero Hardware Security Lab ([GitHub](https://github.com/gurvinny/grv-flipper-lab))
 *Exploration and documentation of physical security vulnerabilities, access controls, and radio frequency (RF) protocol manipulation.*
 
 *   **Protocol Analysis:** Conducted rigorous hands-on research of physical access control systems, utilizing the Flipper Zero multi-tool for RFID/NFC payload cloning and Sub-GHz signal replay analysis.
