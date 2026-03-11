@@ -1,50 +1,104 @@
-# 🧪 Lab Writeup: [Challenge/Lab Name]
+# 🧪 Lab Writeup: [Challenge/Lab Name] ([Difficulty])
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Lab-TryHackMe-1F2937?style=for-the-badge&logo=tryhackme&logoColor=60A5FA" />
+  <img src="https://img.shields.io/badge/Severity-[High/Medium/Low]-[red/orange/yellow]?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Resolved-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Primary_Tool-[Splunk/Wireshark/Etc]-1F2937?logo=[LogoName]&style=for-the-badge&logoColor=60A5FA" />
+  <img src="https://img.shields.io/badge/Platform-[TryHackMe/HackTheBox]-1F2937?logo=[LogoName]&style=for-the-badge&logoColor=60A5FA" />
 </div>
 
-**Platform:** TryHackMe / Hack The Box / Custom
-**Date:** YYYY-MM-DD
-**Objective:** [Briefly describe the goal of the lab/challenge]
+## 🎯 The Mission
+[Briefly describe the one-sentence objective of the lab/challenge. e.g., Simulate a realistic attack workflow demonstrating X to evaluate SOC detection capabilities.]
 
 ---
 
-## 🔍 1. Executive Summary
-Provide a high-level overview of the attack simulated in the lab. What was the initial vector, how did the attacker establish persistence, and what was the final objective (e.g., privilege escalation, data exfiltration)?
+## 🗺️ Attack Topology
 
-## 🚨 2. Alert Triage (If Applicable)
-*   **Alert Name:**
-*   **Source IP:**
-*   **Destination IP:**
-*   **Timestamp:**
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1F2937', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#60A5FA', 'lineColor': '#60A5FA', 'secondaryColor': '#60A5FA', 'tertiaryColor': '#1F2937'}}}%%
+graph TD
+    A[Attacker IP] -->|Action 1| B(Target System)
+    B -->|Action 2| C[Service/Application]
+    C -->|Exploit/Vulnerability| D[Initial Access]
+    D -->|Lateral Movement/PrivEsc| E[Objective/Root]
+```
 
-## 🕵️ 3. Investigation & Analysis
-Detail the steps taken to investigate the incident. Focus on the *logs* and *artifacts* found.
+---
 
-### Initial Access
-*   How did the attacker get in? (e.g., Exploit against an unpatched web service, phishing).
-*   **Evidence:** [Insert log snippet, screenshot of web traffic, or PCAP analysis].
+## 📊 Executive Summary
 
-### Execution & Persistence
-*   What commands were run? Did they drop any payloads?
-*   **Evidence:** [Insert Sysmon process creation logs, scheduled task creation logs].
-
-### Privilege Escalation (If Applicable)
-*   How did the attacker gain SYSTEM/Root?
-*   **Evidence:** [Insert relevant logs or command history].
-
-## 🛡️ 4. Indicators of Compromise (IOCs)
-List the actionable items extracted during the investigation.
-
-| Type | Indicator | Description |
+| Phase | Description | Key Focus |
 | :--- | :--- | :--- |
-| IP Address | `192.168.1.100` | Attacker C2 Server |
-| File Hash (SHA256) | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` | Malicious Payload |
-| Domain | `malicious-domain[.]com` | Phishing Link |
+| **Initial Access** | [High-level summary of initial compromise] | [Defensive focus, e.g., Detecting anomalous file uploads] |
+| **Execution** | [High-level summary of commands run] | [Defensive focus] |
+| **Privilege Escalation** | [High-level summary of privilege escalation] | [Defensive focus] |
+| **[Other Phase]** | [High-level summary] | [Defensive focus] |
 
-## 💡 5. Detection Opportunities & Mitigation
-Based on this lab, how could a SOC detect or prevent this attack in the future?
+---
 
-*   **Detection:** Create a Splunk alert looking for `[Specific Event ID]` combined with `[Specific Command Line Parameter]`. (Link to Sigma rule if created).
-*   **Mitigation:** Ensure all external-facing web applications are patched. Implement Network Segmentation to prevent lateral movement.
+## ⏱️ Incident Timeline (Simulated)
+*   **[HH:MM:SS] UTC:** [Event 1, e.g., Nmap scan initiated]
+*   **[HH:MM:SS] UTC:** [Event 2, e.g., Payload uploaded]
+*   **[HH:MM:SS] UTC:** [Event 3, e.g., Reverse shell established]
+*   **[HH:MM:SS] UTC:** [Event 4, e.g., Privilege escalation achieved]
+
+---
+
+## 🔍 The Investigation
+
+### 1. Alert Triage & Initial Access Analysis
+*   **Analyst Action:** [Describe the action taken by the analyst to investigate the initial access vector.]
+*   **Observation:** [Describe the findings, e.g., The attacker utilized X vulnerability to achieve Y.]
+
+<details>
+  <summary>Click to view: Simulated/Raw Log - [Log Description]</summary>
+
+  ```
+  [Insert raw log snippet, command output, or relevant evidence here]
+  ```
+</details>
+
+### 2. Execution & Persistence Verification
+*   **Analyst Action:** [Describe the action taken to identify post-exploitation activities.]
+*   **Observation:** [Describe the findings, e.g., The attacker spawned an interactive shell using X.]
+
+<details>
+  <summary>Click to view: Simulated/Raw Log - [Log Description]</summary>
+
+  ```
+  [Insert raw log snippet, command output, or relevant evidence here]
+  ```
+</details>
+
+### 3. Privilege Escalation (If Applicable)
+*   **Analyst Action:** [Describe the action taken to trace the escalation path.]
+*   **Observation:** [Describe the findings, e.g., The attacker exploited X to gain root access.]
+
+<details>
+  <summary>Click to view: Simulated/Raw Log - [Log Description]</summary>
+
+  ```
+  [Insert raw log snippet, command output, or relevant evidence here]
+  ```
+</details>
+
+---
+
+## 🎯 MITRE ATT&CK Mapping
+
+| Tactic | Technique | ID | Description |
+| :--- | :--- | :--- | :--- |
+| **[Tactic Name]** | [Technique Name] | [TXXXX] | [Brief description of how it applies to this lab] |
+| **[Tactic Name]** | [Technique Name] | [TXXXX.XXX] | [Brief description of how it applies to this lab] |
+
+---
+
+## 🛑 Closing: Remediation & Lessons Learned
+
+### Containment & Eradication Strategy
+*   **Remediation Strategy:** [Recommendation 1, e.g., Patch the specific vulnerability.]
+*   **Remediation Strategy:** [Recommendation 2, e.g., Implement strict input validation.]
+
+### Post-Incident Activity (Detection Opportunities)
+*   **Analyst Action:** [Detection engineering idea 1, e.g., Develop a Splunk alert monitoring for X.]
+*   **Analyst Action:** [Detection engineering idea 2, e.g., Create a Sigma rule targeting Y.]

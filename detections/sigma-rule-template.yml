@@ -1,7 +1,9 @@
-title: Suspicious PowerShell Download Cradle
+title: Suspicious PowerShell Download Cradle Execution
 id: 12345678-abcd-efgh-ijkl-1234567890ab
 status: experimental
-description: Detects suspicious PowerShell download cradles commonly used to download and execute malicious payloads (e.g., IEX(New-Object Net.WebClient).DownloadString).
+description: |
+  Identifies the execution of a potentially malicious PowerShell download cradle (e.g., IEX(New-Object Net.WebClient).DownloadString).
+  This behavior is a high-confidence indicator of an initial payload fetch or lateral movement stage commonly utilized by threat actors and ransomware operators.
 references:
     - https://attack.mitre.org/techniques/T1059/001/
 author: Gurvin Singh
@@ -22,5 +24,5 @@ detection:
             - 'DownloadString'
     condition: selection
 falsepositives:
-    - Legitimate administrative scripts downloading updates internally.
+    - 'Observation: Legitimate enterprise administration scripts executing internal, automated update retrievals from known good internal repositories.'
 level: high
