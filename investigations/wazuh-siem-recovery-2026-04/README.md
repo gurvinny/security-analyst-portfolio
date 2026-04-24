@@ -83,6 +83,24 @@ Upgraded all three components during the session. Encountered and resolved:
 
 ---
 
+## Compliance Audit Results
+
+### USG Level 2 Server (CIS Level 2 — DISA STIG / NIST 800-53 aligned)
+
+![USG Level 2 Score](./evidence/usg-level2-score.png)
+
+| Metric | Result |
+|:---|:---:|
+| Rules Passed | 435 |
+| Rules Failed | 36 |
+| Failed Severity | 34 medium · 2 high |
+| **Final Score** | **90.98%** |
+
+> USG Level 2 maps to DISA STIG and NIST 800-53 controls —
+> the standard used by US federal agencies and DoD contractors.
+
+---
+
 ## Key Lesson
 Application keystores take precedence over config files. When a 
 config change has no effect, always check for an encrypted keystore 
