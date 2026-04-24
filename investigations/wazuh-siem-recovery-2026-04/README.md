@@ -79,6 +79,7 @@ Upgraded all three components during the session. Encountered and resolved:
 | Wazuh version | 4.14.4 | 4.14.5 |
 | NTP sync | Broken | Synced (pfSense) |
 | Auditd coverage | Partial | Full |
+| USG Level 2 Server Audit | — | 90.8% |
 
 ---
 
