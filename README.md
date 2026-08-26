@@ -12,10 +12,12 @@
 </p>
 </div>
 
+> **Last reviewed:** August 2026.
+
 ---
 
 ## 🚀 The Mission
-CompTIA **Security+** and **CySA+** certified Security Operations analyst focused on high-fidelity detection engineering and automated incident triage. Specialized in **SIEM** operations (**Wazuh** / **Splunk** / Elastic), CIS hardening, and network telemetry analysis to reduce dwell time. Proven ability to bridge offensive methodology with defensive engineering to secure multi-platform environments, with every control documented and every incident written up.
+CompTIA **Security+** and **CySA+** certified Security Operations analyst focused on high-fidelity detection engineering and automated incident triage. Specialized in **SIEM** operations (**Wazuh** / **Splunk** / Elastic), CIS hardening, and network telemetry analysis to reduce dwell time. Everything here is built and broken in a self-hosted lab, then documented the way a shift handover would need it — evidence attached, decisions justified, and the accepted risks named rather than omitted.
 
 ---
 
@@ -43,8 +45,8 @@ CompTIA **Security+** and **CySA+** certified Security Operations analyst focuse
 
 | Project Name | Objective | Primary Tools | Outcome | Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Home SOC & Resilient Edge Lab** | SOC Telemetry & Visibility | pfSense, **Wazuh** | Engineered a zero-trust, 7-VLAN segmented network on a dedicated edge appliance, forwarding high-fidelity events through a noise-suppression pipeline (**SOC_SILENCE**) into a centralized **Wazuh** SIEM for proactive **Threat Hunting**. | [View Repo](https://github.com/gurvinny/home-network-lab) |
-| **Wazuh SIEM Recovery & Hardening** | Incident Response & Hardening | **Wazuh**, OpenSearch, CIS | Diagnosed a full log-ingestion failure across the OpenSearch authentication chain and restored live alerting, then hardened the host to **88.9% CIS L1** and **90.88% USG Level 2**. | [View Repo](https://github.com/gurvinny/security-analyst-portfolio/tree/main/investigations/wazuh-siem-recovery-2026-04) |
+| **Home SOC & Resilient Edge Lab** | SOC Telemetry & Visibility | pfSense, **Wazuh** | Engineered a default-deny, 5-VLAN segmented network on a dedicated edge appliance, with a named noise-suppression ruleset (**SOC_SILENCE**) that keeps the firewall log SIEM-ready. Wazuh ingests agent telemetry from lab hosts; firewall log forwarding is the next integration step. | [View Repo](https://github.com/gurvinny/home-network-lab) |
+| **Wazuh SIEM Recovery & Hardening** | Incident Response & Hardening | **Wazuh**, OpenSearch, CIS | Diagnosed a full log-ingestion failure across the OpenSearch authentication chain and restored live alerting, then hardened the host to **88.9%** on the CIS Ubuntu 24.04 benchmark and **90.98%** on the USG Level 2 audit. | [View Case Study](investigations/wazuh-siem-recovery-2026-04/) |
 | **Automated Phish Extractor** | Triage Automation | **Python**, VirusTotal, AbuseIPDB | Reduced manual triage latency by automating IOC extraction and threat-intel enrichment, auto-scoring risk and emitting **YARA/Sigma** detections plus standardized **Incident Response** reports. | [View Repo](https://github.com/gurvinny/Automated-Phish-Extractor) |
 
 ---
@@ -64,12 +66,19 @@ Structured standard operating procedures (SOPs) for triage, containment, and era
 *   **Analyst Focus:** Phishing Analysis, Ransomware Containment, Brute Force Triage.
 
 ### 🔍 [Detection Engineering](detections/)
-Repository of custom vendor-agnostic detection logic and SIEM search patterns.
-*   **Analyst Focus:** Sigma rule development, YARA signatures, Splunk/Wazuh queries, MITRE ATT&CK alignment.
+Vendor-agnostic detection logic written in Sigma and mapped to ATT&CK.
+*   **Currently:** one Sigma rule (PowerShell download cradle, T1059.001). This section is early — it grows as lab investigations produce detections worth generalizing.
 
 ### 🧪 [Lab Investigations](labs/)
-Deep-dive forensic reports mapping attacker kill chains and identifying defensive artifacts.
-*   **Analyst Focus:** Timeline reconstruction, log aggregation, and indicator extraction.
+Forensic write-ups reconstructing attacker kill chains and the artifacts each stage leaves behind.
+*   **Currently:** one full report (TryHackMe *Lookup* — elFinder RCE → SUID PATH hijack → root), plus the standard write-up template every report follows.
+
+### 🔬 [Investigations](investigations/)
+Real incidents from the lab, worked end to end with evidence attached.
+*   **Currently:** [Wazuh SIEM recovery and CIS hardening](investigations/wazuh-siem-recovery-2026-04/) — a full log-ingestion outage diagnosed and fixed, with the hardening audit that followed.
+
+### 📐 [Methodology](methodology.md) · [Roadmap](roadmap.md)
+The incident-handling process these write-ups follow (NIST SP 800-61 r2), and what is being built next.
 
 ---
 <div align="center">

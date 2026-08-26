@@ -74,8 +74,8 @@ graph TD
   <summary>Click to view: Simulated Auditd Log - SUID Enumeration</summary>
 
   ```
-  type=SYSCALL msg=audit(1653384300.123:456): arch=c000003e syscall=59 success=yes exit=0 a0=55d8f2a1b0b0 a1=55d8f2a1b0d0 a2=55d8f2a1b0e0 a3=7ffe8a9b1c00 items=2 ppid=1200 pid=1255 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="find" exe="/usr/bin/find" key="recon"
-  type=EXECVE msg=audit(1653384300.123:456): argc=5 a0="find" a1="/" a2="-perm" a3="-4000" a4="2>/dev/null"
+  type=SYSCALL msg=audit(1779614400.123:456): arch=c000003e syscall=59 success=yes exit=0 a0=55d8f2a1b0b0 a1=55d8f2a1b0d0 a2=55d8f2a1b0e0 a3=7ffe8a9b1c00 items=2 ppid=1200 pid=1255 auid=4294967295 uid=33 gid=33 euid=33 suid=33 fsuid=33 egid=33 sgid=33 fsgid=33 tty=(none) ses=4294967295 comm="find" exe="/usr/bin/find" key="recon"
+  type=EXECVE msg=audit(1779614400.123:456): argc=5 a0="find" a1="/" a2="-perm" a3="-4000" a4="2>/dev/null"
   ```
 </details>
 

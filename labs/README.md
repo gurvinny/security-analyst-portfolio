@@ -35,8 +35,10 @@ To maintain an aggressive, analytical standard consistent with modern SOC operat
 Walkthroughs focusing heavily on log aggregation, endpoint forensics (Sysmon), and network traffic analysis.
 *   **[Lookup](tryhackme/easy/lookup/report.md)** (Easy) - Investigating anomalous web uploads (elFinder RCE), PATH hijacking, and SUID exploitation to develop actionable detection logic.
 
-### [HackTheBox Deployments](hackthebox/)
-*(Coming Soon)* - Advanced defensive scenarios and Sherlocks centered on enterprise incident response, lateral movement detection, and active threat hunting.
+### Write-Up Standard
+Every report in this directory follows [`lab-writeup-template.md`](lab-writeup-template.md) — the same eight sections in the same order, so reports stay comparable and nothing important gets skipped under time pressure.
+
+> **Planned:** HackTheBox Sherlocks — defensive scenarios covering enterprise incident response, lateral movement detection, and threat hunting. Not started; there is nothing behind this yet.
 
 ---
 <div align="center">

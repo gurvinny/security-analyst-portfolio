@@ -10,7 +10,7 @@ Diagnosed and resolved a complete Wazuh SIEM data pipeline failure
 resulting in zero dashboard entries. Repaired the authentication chain 
 across three components, restored live data flow, then hardened the 
 server from **83% → 88.9%** on the CIS Ubuntu 24.04 LTS Benchmark 
-(24 controls remediated).
+(23 controls remediated).
 
 ---
 
@@ -47,11 +47,11 @@ server from **83% → 88.9%** on the CIS Ubuntu 24.04 LTS Benchmark
   `manage` permissions on `wazuh-*` index patterns
 - Resolved static role naming conflict and YAML duplicate field errors
 
-### CIS Hardening (24 controls)
+### CIS Hardening (23 controls)
 - **Auditd:** Consolidated conflicting rule files, enabled all audit 
   event categories (time, network, identity, DAC, mounts, sessions, 
   file deletion, privileged commands, kernel modules)
-- **Kernel modules:** Blacklisted 14 unused filesystem/network modules 
+- **Kernel modules:** Blacklisted unused filesystem and network modules 
   (afs, ceph, cifs, exfat, fat, fscache, fuse, gfs2, nfs_common, nfsd, 
   smbfs_common, ext, cramfs, squashfs)
 - **SSH:** Disabled `PermitRootLogin`
@@ -79,7 +79,7 @@ Upgraded all three components during the session. Encountered and resolved:
 | Wazuh version | 4.14.4 | 4.14.5 |
 | NTP sync | Broken | Synced (pfSense) |
 | Auditd coverage | Partial | Full |
-| USG Level 2 Server Audit | — | 90.8% |
+| USG Level 2 Server Audit | — | 90.98% |
 
 ---
 
@@ -112,6 +112,11 @@ config change has no effect, always check for an encrypted keystore
 See [`case-study.docx`](./case-study.docx) for the complete write-up 
 including investigation methodology, remediation steps, accepted 
 exception justifications, and recommendations.
+
+Note that the case study documents the CIS benchmark work (279 controls, 
+scored via Wazuh SCA). The USG Level 2 audit above is a **separate, later 
+scan** over a different control set (471 rules) — which is why the two 
+percentages differ and why the screenshot is the evidence for that figure.
 
 ---
 

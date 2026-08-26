@@ -40,6 +40,9 @@ To maintain an aggressive, professional, and methodical incident response postur
 ### [🛑 Ransomware Containment](ransomware-containment-playbook.md)
 *   **Analyst Focus:** Immediate triage and critical isolation procedures for suspected ransomware detonations, focusing on rapid containment to severely limit encryption spread and preserve volatile forensic evidence.
 
+### [📋 Playbook Template](phishing-playbook-template.md)
+*   The blank structure every playbook above is written into — prerequisites, timeline, triage steps, containment, eradication, ATT&CK mapping, and post-incident actions.
+
 ---
 <div align="center">
   <i>"Speed in response is critical, but accuracy in investigation is paramount."</i>

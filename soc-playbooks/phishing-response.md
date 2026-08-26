@@ -98,7 +98,7 @@ graph TD
 
   ```
   File: Invoice_78492.pdf.exe
-  SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  SHA256: 121769d647dbd38761d46296d79a9bacb6c56a4432f2ee98b6666e57e4db6468  (synthetic — example data, not a real sample)
   Detection: Malicious (Trojan.Downloader)
   Behavior:
   - Process Creation: powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand <base64>

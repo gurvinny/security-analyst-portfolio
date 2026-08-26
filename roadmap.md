@@ -7,6 +7,8 @@
   </p>
 </div>
 
+> **Last reviewed:** August 2026. Phases are dated rather than relative, so staleness is visible.
+
 ---
 
 ## 🎯 The Mission
@@ -14,7 +16,7 @@ The following structured roadmap details my professional progression to become a
 
 ---
 
-## 🟢 Phase 1: Foundations & Core Competencies (Current Focus)
+## 🟢 Phase 1: Foundations & Core Competencies (Complete)
 *Establishing the critical baseline required to interpret enterprise infrastructure and identify architectural anomalies.*
 
 ### **Operating Systems & Infrastructure**
@@ -32,11 +34,11 @@ The following structured roadmap details my professional progression to become a
 
 ---
 
-## 🟡 Phase 2: Log Analysis & Detection Engineering (Next 3-6 Months)
+## 🟡 Phase 2: Log Analysis & Detection Engineering (Current Focus — through early 2027)
 *Transitioning focus from identifying operational systems to proactively detecting compromise indicators (IOCs).*
 
 ### **Log Aggregation & SIEM Mastery**
-*   **Splunk:** Developing proficiency in SPL (Search Processing Language) to aggregate disparaged log sources, aggressively filter noise (False Positives), and engineer foundational dashboards/alerts.
+*   **Splunk:** Developing proficiency in SPL (Search Processing Language) to aggregate disparate log sources, aggressively filter noise (False Positives), and engineer foundational dashboards/alerts.
 *   **Elastic Stack (ELK):** Gaining operational experience with Elasticsearch, Logstash, and Kibana for centralized telemetry aggregation and visualization.
 
 ### **Detection Engineering & Standardization**
@@ -45,11 +47,11 @@ The following structured roadmap details my professional progression to become a
 
 ### **Incident Response Methodology**
 *   **Alert Triage Workflow:** Validating True Positives against False Positives, contextualizing asset enrichment, and actively scoping the incident's blast radius.
-*   **Playbook Development:** Expanding the `soc-playbooks/` repository to incorporate highly structured Standard Operating Procedures (SOPs) for Ransomware containment, Insider Threat detection, and Web Application Exploit triage.
+*   **Playbook Development:** Expanding `soc-playbooks/` beyond the three written so far (brute force, phishing, ransomware) to cover Insider Threat detection and Web Application Exploit triage.
 
 ---
 
-## 🟠 Phase 3: Threat Hunting & Advanced Analysis (6-12 Months)
+## 🟠 Phase 3: Threat Hunting & Advanced Analysis (2027)
 *Executing proactive, intelligence-driven hunts to identify latent threats bypassing automated security telemetry.*
 
 ### **Threat Hunting Methodologies**
@@ -61,6 +63,7 @@ The following structured roadmap details my professional progression to become a
 *   **Cloud Logging Basics:** Familiarization with aggregating and analyzing AWS CloudTrail logs, Azure Monitor, and auditing multi-cloud configuration postures.
 
 ### **Strategic Certification Goals**
-*   🎯 **CompTIA Security+** (In Progress)
+*   ✅ **CompTIA Security+** — earned
+*   ✅ **CompTIA CySA+** — earned
 *   🎯 **Splunk Core Certified Power User** (Planned)
-*   🎯 **Blue Team Level 1 (BTL1)** or **CompTIA CySA+** (Planned)
+*   🎯 **Blue Team Level 1 (BTL1)** (Planned)
