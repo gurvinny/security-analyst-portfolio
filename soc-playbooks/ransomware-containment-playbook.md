@@ -42,7 +42,7 @@ graph TD
 ---
 
 ## ⏱️ Incident Timeline (Example Scenario)
-*   **14:30:00 UTC:** Critical EDR Alert: "Suspicious Process Execution: `vssadmin.exe Delete Shadows`" on host `WKSTN-FIN-04`.
+*   **14:30:12 UTC:** `vssadmin.exe Delete Shadows` executes on host `WKSTN-FIN-04`; EDR raises a critical alert on the process-creation event.
 *   **14:31:15 UTC:** Analyst validates alert and observes rapid file modification events in Sysmon logs.
 *   **14:32:00 UTC:** Immediate Containment: Analyst initiates network isolation for `WKSTN-FIN-04` via the EDR console.
 *   **14:35:45 UTC:** Network analysis reveals beaconing to `198.51.100.88` prior to isolation. IP blocked at the perimeter (pfSense).
@@ -79,7 +79,7 @@ graph TD
       <Opcode>0</Opcode>
       <Keywords>0x8020000000000000</Keywords>
       <TimeCreated SystemTime="2024-05-24T14:30:12.000000000Z" />
-      <EventRecordID>987654</EventRecordID>
+      <EventRecordID>8842317</EventRecordID>
       <Correlation />
       <Execution ProcessID="4" ThreadID="120" />
       <Channel>Security</Channel>
@@ -87,14 +87,14 @@ graph TD
       <Security />
     </System>
     <EventData>
-      <Data Name="SubjectUserSid">S-1-5-21-1234567890</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-3623811015-3361044348-30300820-1013</Data>
       <Data Name="SubjectUserName">admin_user</Data>
       <Data Name="SubjectDomainName">ENTERPRISE</Data>
-      <Data Name="SubjectLogonId">0x12345</Data>
-      <Data Name="NewProcessId">0xabc</Data>
+      <Data Name="SubjectLogonId">0x3e7f41a</Data>
+      <Data Name="NewProcessId">0x1f4c</Data>
       <Data Name="NewProcessName">C:\Windows\System32\vssadmin.exe</Data>
       <Data Name="TokenElevationType">%%1936</Data>
-      <Data Name="ProcessId">0xdef</Data>
+      <Data Name="ProcessId">0x9a8</Data>
       <Data Name="CommandLine">vssadmin.exe Delete Shadows /All /Quiet</Data>
       <Data Name="ParentProcessName">C:\Users\admin_user\Downloads\invoice_update.exe</Data>
     </EventData>

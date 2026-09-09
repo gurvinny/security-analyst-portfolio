@@ -22,13 +22,13 @@ To guarantee maximum visibility and minimize analyst fatigue, all detection arti
 
 -   **Behaviour over indicators:** target the *intent* behind an action (a download cradle, a shadow-copy deletion) rather than IPs and hashes, which rotate faster than a rule can be republished.
 -   **False positives declared up front:** every rule names what will legitimately trip it. A rule that ships without that section moves the tuning cost onto whoever is on shift.
--   **Vendor Agnosticism:** Utilizing universally adopted formats, primarily **Sigma**, to ensure detection logic can be rapidly deployed and translated across disparate SIEM platforms (Splunk, Elastic, Sentinel).
+-   **Vendor Agnosticism:** Utilizing universally adopted formats, primarily **Sigma**, so detection logic can be translated to other SIEM platforms (Splunk, Elastic, Sentinel). Nothing here has been deployed to a production SIEM.
 
 ---
 
-## 📂 Active Intelligence & Telemetry Logic
+## 📂 Detection Logic
 
-### [📝 Suspicious PowerShell Download Cradle](sigma-rule-template.yml)
+### [📝 Suspicious PowerShell Download Cradle](powershell-download-cradle.yml)
 *   **Detects:** `powershell.exe` / `pwsh.exe` invoking `Net.WebClient` together with `DownloadString` — the classic in-memory fetch-and-execute pattern.
 *   **ATT&CK:** T1059.001 (Command and Scripting Interpreter: PowerShell) · **Status:** experimental · **Level:** high
 *   **Known false positives:** software-deployment and configuration-management tooling that legitimately fetches scripts at runtime.

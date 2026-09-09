@@ -11,7 +11,7 @@
 ---
 
 ## 🎯 The Mission
-This directory acts as the central repository for high-fidelity Incident Response Playbooks, meticulously designed for **SOC Tier 1 / Entry-Level Security Analysts**. These standard operating procedures (SOPs) outline structured investigation, containment, and eradication workflows for common security alerts, guaranteeing actionable guidance and operational readiness.
+Incident response playbooks written for **SOC Tier 1 / entry-level analysts**. Each is a standard operating procedure covering investigation, containment and eradication for one common alert type. They are written against synthetic example data, not captured from a production environment.
 
 ---
 
@@ -29,7 +29,7 @@ To maintain an aggressive, professional, and methodical incident response postur
 
 ---
 
-## 📂 Active Playbook Deployments
+## 📂 Playbooks
 
 ### [🚨 Brute Force & Credential Stuffing](brute-force-response.md)
 *   **Analyst Focus:** Detection and aggressive response workflows for anomalous authentication activities, including password spraying, credential stuffing, and repeated failed login attempts against critical identity infrastructure.

@@ -9,7 +9,7 @@
 Diagnosed and resolved a complete Wazuh SIEM data pipeline failure 
 resulting in zero dashboard entries. Repaired the authentication chain 
 across three components, restored live data flow, then hardened the 
-server from **83% → 88.9%** on the CIS Ubuntu 24.04 LTS Benchmark 
+server from **80.6% → 88.9%** on the CIS Ubuntu 24.04 LTS Benchmark 
 (23 controls remediated).
 
 ---
@@ -74,7 +74,7 @@ Upgraded all three components during the session. Encountered and resolved:
 | Metric | Before | After |
 |---|---|---|
 | Dashboard data | 0 entries | Live alerts flowing |
-| CIS Score | 83.0% | 88.9% |
+| CIS Score | 80.6% | 88.9% |
 | Controls passing | 225/279 | 248/279 |
 | Wazuh version | 4.14.4 | 4.14.5 |
 | NTP sync | Broken | Synced (pfSense) |
@@ -109,7 +109,7 @@ config change has no effect, always check for an encrypted keystore
 ---
 
 ## Full Case Study
-See [`case-study.docx`](./case-study.docx) for the complete write-up 
+See [`case-study.md`](./case-study.md) for the complete write-up 
 including investigation methodology, remediation steps, accepted 
 exception justifications, and recommendations.
 

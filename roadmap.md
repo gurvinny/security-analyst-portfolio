@@ -7,7 +7,7 @@
   </p>
 </div>
 
-> **Last reviewed:** August 2026. Phases are dated rather than relative, so staleness is visible.
+> **Last reviewed:** September 2026. Phases are dated rather than relative, so staleness is visible.
 
 ---
 
@@ -30,19 +30,20 @@ The following structured roadmap details my professional progression to become a
 
 ### **Validation & Achievements**
 *   🏆 **Completed:** TryHackMe Cyber Security 101 Path (`100%`)
-*   🏆 **In Progress:** TryHackMe SOC Level 1 Path (`70%`)
 
 ---
 
-## 🟡 Phase 2: Log Analysis & Detection Engineering (Current Focus — through early 2027)
+## 🟡 Phase 2: Log Analysis & Detection Engineering (Current Focus — reviewed quarterly, next review December 2026)
 *Transitioning focus from identifying operational systems to proactively detecting compromise indicators (IOCs).*
+
+*   🏆 **In Progress:** TryHackMe SOC Level 1 Path (`70%`)
 
 ### **Log Aggregation & SIEM Mastery**
 *   **Splunk:** Developing proficiency in SPL (Search Processing Language) to aggregate disparate log sources, aggressively filter noise (False Positives), and engineer foundational dashboards/alerts.
 *   **Elastic Stack (ELK):** Gaining operational experience with Elasticsearch, Logstash, and Kibana for centralized telemetry aggregation and visualization.
 
 ### **Detection Engineering & Standardization**
-*   **Sigma Framework:** Engineering vendor-agnostic detection signatures (`.yml`) to systematically translate adversary behavior into high-fidelity alerts across any SIEM environment.
+*   **Sigma Framework:** Engineering vendor-agnostic detection signatures (`.yml`) to translate adversary behaviour into alerts that port across SIEM platforms.
 *   **MITRE ATT&CK Framework:** Mapping detection rules, SIEM searches, and incident response playbooks to specific adversary Tactics, Techniques, and Procedures (TTPs).
 
 ### **Incident Response Methodology**
