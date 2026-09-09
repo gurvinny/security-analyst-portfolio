@@ -97,3 +97,11 @@ The incident-handling process these write-ups follow (NIST SP 800-61 r2), and wh
 <div align="center">
   <i>Disclaimer: All activities documented in this portfolio are performed in controlled, legal environments for educational purposes.</i>
 </div>
+
+---
+
+## Contributions
+
+This repository is published as a record of completed work, not as a collaborative project.
+Issues are disabled and pull requests are not reviewed or merged. Corrections, broken links and
+security concerns are welcome — see [SECURITY.md](SECURITY.md) for how to report them.
