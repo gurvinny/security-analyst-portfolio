@@ -11,7 +11,7 @@
 ---
 
 ## 🎯 The Mission
-This directory contains comprehensive, professional-grade writeups of attack simulations, CTF challenges, and hands-on lab investigations. The focus is strictly on **defensive security operations**—analyzing artifacts left behind during post-exploitation, understanding adversary methodologies, and engineering high-fidelity detection strategies.
+Write-ups of attack simulations, CTF challenges and hands-on lab investigations, read from the defensive side: the artifacts each stage leaves behind, the adversary methodology, and what would have detected it. Log samples in these reports are reconstructed for the write-up and labelled as such.
 
 ---
 
@@ -29,7 +29,7 @@ To maintain an aggressive, analytical standard consistent with modern SOC operat
 
 ---
 
-## 📂 Active Investigations
+## 📂 Write-ups
 
 ### [TryHackMe Deployments](tryhackme/)
 Walkthroughs focusing heavily on log aggregation, endpoint forensics (Sysmon), and network traffic analysis.

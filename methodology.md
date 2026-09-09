@@ -10,7 +10,7 @@
 ---
 
 ## 🎯 The Mission
-Establish a standardized, high-fidelity Standard Operating Procedure (SOP) for triage, investigation, and eradication, heavily inspired by the **NIST SP 800-61 Rev. 2** Computer Security Incident Handling Guide and optimized for Tier 1 SOC operations.
+Establish a standardized Standard Operating Procedure (SOP) for triage, investigation, and eradication, heavily inspired by the **NIST SP 800-61 Rev. 2** Computer Security Incident Handling Guide and optimized for Tier 1 SOC operations.
 
 ---
 
