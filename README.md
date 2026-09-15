@@ -48,12 +48,15 @@ Ordered by strength of evidence — the first entry is backed by a tool-generate
 
 | **Category** | **Technologies & Platforms** |
 | :--- | :--- |
-| **SIEM & Security Monitoring** | ![Wazuh](https://img.shields.io/badge/Wazuh-1F2937?style=flat-square&logo=elasticsearch&logoColor=60A5FA) ![Splunk](https://img.shields.io/badge/Splunk-1F2937?style=flat-square&logo=splunk&logoColor=60A5FA) ![Elastic](https://img.shields.io/badge/Elastic-1F2937?style=flat-square&logo=elasticsearch&logoColor=60A5FA) |
+| **SIEM & Security Monitoring** | ![Wazuh](https://img.shields.io/badge/Wazuh-1F2937?style=flat-square&logo=elasticsearch&logoColor=60A5FA) &nbsp;·&nbsp; *learning:* ![Splunk](https://img.shields.io/badge/Splunk-374151?style=flat-square&logo=splunk&logoColor=9CA3AF) ![Elastic](https://img.shields.io/badge/Elastic-374151?style=flat-square&logo=elasticsearch&logoColor=9CA3AF) |
 | **Network Traffic Analysis (NTA) & IDS/IPS** | ![Wireshark](https://img.shields.io/badge/Wireshark-1F2937?style=flat-square&logo=wireshark&logoColor=60A5FA) ![pfSense](https://img.shields.io/badge/pfSense-1F2937?style=flat-square&logo=pfsense&logoColor=60A5FA) ![Snort/Suricata](https://img.shields.io/badge/Snort/Suricata-1F2937?style=flat-square&logo=suricata&logoColor=60A5FA) |
 | **Detection Engineering & Frameworks** | ![Sigma](https://img.shields.io/badge/Sigma-1F2937?style=flat-square&logo=sigma&logoColor=60A5FA) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT&CK-1F2937?style=flat-square&logo=mitre&logoColor=60A5FA) |
 | **Endpoint Security** | Endpoint Detection &amp; Response (Wazuh agents) |
 | **Security Orchestration & Scripting** | ![Python](https://img.shields.io/badge/Python-1F2937?style=flat-square&logo=python&logoColor=60A5FA) ![Bash](https://img.shields.io/badge/Bash-1F2937?style=flat-square&logo=gnu-bash&logoColor=60A5FA) ![PowerShell](https://img.shields.io/badge/PowerShell-1F2937?style=flat-square&logo=powershell&logoColor=60A5FA) |
 | **Operating Systems** | ![Windows](https://img.shields.io/badge/Windows-1F2937?style=flat-square&logo=windows&logoColor=60A5FA) ![Linux](https://img.shields.io/badge/Linux-1F2937?style=flat-square&logo=linux&logoColor=60A5FA) |
+
+<sub>Full-colour entries are deployed and operated in the home lab. Greyed *learning*
+entries are in progress — see the <a href="roadmap.md">roadmap</a> for where each one stands.</sub>
 
 ---
 
