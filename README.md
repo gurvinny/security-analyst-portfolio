@@ -59,10 +59,20 @@ entries are in progress; see the <a href="roadmap.md">roadmap</a> for where each
 
 **B.S. Cybersecurity & Information Assurance** · Western Governors University · expected 02/2027
 
-*   [![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/earner/earned/badge/8ff86bbc-133d-46b6-b91e-7475ded8ed63) `Certified`
-*   [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/earner/earned/badge/3714ff8f-276c-47f4-ac49-b1551eefefcc) `Certified`
-*   [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/earner/earned/badge/7d61a205-31d0-4a51-bd04-3e227f634e3c) `Certified`
-*   [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/earner/earned/badge/e33d46ab-136c-4ed0-a7e2-ad82078659ab) `Certified`
+**Security**
+
+*   [![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/badges/8ff86bbc-133d-46b6-b91e-7475ded8ed63) `Certified`
+*   [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/badges/3714ff8f-276c-47f4-ac49-b1551eefefcc) `Certified`
+
+**Infrastructure & Operations**
+
+*   [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/badges/7d61a205-31d0-4a51-bd04-3e227f634e3c) `Certified`
+*   [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-1F2937?style=flat-square&logo=comptia&logoColor=60A5FA)](https://www.credly.com/badges/e33d46ab-136c-4ed0-a7e2-ad82078659ab) `Certified`
+*   [![LPI Linux Essentials](https://img.shields.io/badge/LPI-Linux_Essentials-1F2937?style=flat-square&logo=linux&logoColor=60A5FA)](https://www.credly.com/badges/0ac6a07e-05a6-4173-b617-e19b6308b1e5) `Certified`
+
+**IT Service Management**
+
+*   [![ITIL 4 Foundation](https://img.shields.io/badge/ITIL_4-Foundation-1F2937?style=flat-square)](https://www.peoplecert.org/public-profile?ed=XCHu3ZqUTNIe%2fnJchle6lbije6RLjHX4) `Certified`
 
 ---
 

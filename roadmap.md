@@ -88,9 +88,8 @@ University, expected **February 2027**. The degree is built around industry-stan
 certifications rather than coursework alone, so each term produces a credential that stands on
 its own outside the transcript.
 
-Four are earned and listed with verification links in [Credentials](#-credentials) below.
-**Remaining in the degree plan:** CompTIA Data+, CompTIA PenTest+, ISC2 SSCP, ITIL 4 Foundation
-and LPI Linux Essentials.
+Six are earned and listed with verification links in [Credentials](#-credentials) below.
+**Remaining in the degree plan:** CompTIA Data+, CompTIA PenTest+ and ISC2 SSCP.
 
 The lab work in the two tracks above is usually where the coursework gets applied first.
 
@@ -99,10 +98,12 @@ The lab work in the two tracks above is usually where the coursework gets applie
 ## 📜 Credentials
 
 *   🎓 **B.S. Cybersecurity & Information Assurance**, Western Governors University · expected February 2027
-*   ✅ [**CompTIA CySA+**](https://www.credly.com/earner/earned/badge/8ff86bbc-133d-46b6-b91e-7475ded8ed63) · earned June 2026
-*   ✅ [**CompTIA Security+**](https://www.credly.com/earner/earned/badge/3714ff8f-276c-47f4-ac49-b1551eefefcc) · earned June 2026
-*   ✅ [**CompTIA Network+**](https://www.credly.com/earner/earned/badge/7d61a205-31d0-4a51-bd04-3e227f634e3c) · earned September 2026
-*   ✅ [**CompTIA A+**](https://www.credly.com/earner/earned/badge/e33d46ab-136c-4ed0-a7e2-ad82078659ab) · earned September 2026
+*   ✅ [**CompTIA CySA+**](https://www.credly.com/badges/8ff86bbc-133d-46b6-b91e-7475ded8ed63) · earned June 2026
+*   ✅ [**CompTIA Security+**](https://www.credly.com/badges/3714ff8f-276c-47f4-ac49-b1551eefefcc) · earned June 2026
+*   ✅ [**CompTIA Network+**](https://www.credly.com/badges/7d61a205-31d0-4a51-bd04-3e227f634e3c) · earned September 2026
+*   ✅ [**CompTIA A+**](https://www.credly.com/badges/e33d46ab-136c-4ed0-a7e2-ad82078659ab) · earned September 2026
+*   ✅ [**LPI Linux Essentials**](https://www.credly.com/badges/0ac6a07e-05a6-4173-b617-e19b6308b1e5) · earned October 2026
+*   ✅ [**ITIL 4 Foundation**](https://www.peoplecert.org/public-profile?ed=XCHu3ZqUTNIe%2fnJchle6lbije6RLjHX4) · earned October 2026
 *   🏆 [**TryHackMe Cyber Security 101 Path**](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-BPY9Y4IOOB.pdf) · completed February 2026
 *   🎯 **Splunk Core Certified Power User** (planned, Q1 2027)
 *   🎯 **Blue Team Level 1 (BTL1)** (later, no target date set)
